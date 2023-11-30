@@ -1,8 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv"; //for accessing .env files
-import User from "./model/user.js";
-import Student from "./model/student.js";
 import Books from "./model/book.js";
 
 dotenv.config(); 
